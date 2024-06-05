@@ -1,0 +1,302 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-image:url(../src/media/PSL_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+nav , .hip{
+  background-color: rgba(245, 245, 245, 0.943);
+  height: 110px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+      margin: 50px;
+      color: black;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  color: #ddb021;
+}
+nav h2 {
+      margin: 0; 
+}
+#firmlogo{
+  height: 110px;
+  width: 190px;
+}
+
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* Grid item */
+.grid-item {
+text-align: center;
+}
+
+/* slika */
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* deskripcija */
+.grid-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555555;
+}
+
+/* slike u gridu  */
+
+#pic1{
+  width: 350px ;
+  height: 609px;
+}
+#pic2{
+  width: 430px ;
+  height: 608px;
+}
+#pic3{
+  width: 400px ;
+  height: 617px;
+}
+#pic4{
+  width: 470px ;
+  height: 617px;
+}
+#pic5{
+  width: 415px ;
+  height: 617px;
+}
+#pic6{
+  width: 465px ;
+  height: 617px;
+}
+#pic7{
+  width: 400px ;
+  height: 617px;
+}
+#pic8{
+  width: 492px ;
+  height: 617px;
+}  
+#pic9{
+  width: 331px ;
+  height: 617px;
+}
+
+/* aboutovi */
+
+#about_PSL{
+width: 40%;
+font-size: large;
+text-align: justify;
+padding: 10px;
+margin-left: 50px;
+margin-bottom: -309px;
+}
+#abt_harv{
+width: 60%;
+margin-left: 20%;
+color: white;
+}
+#abt_jess{
+width: 60%;
+margin-left: 20%;
+color: white;
+}
+#abt_litt{
+width: 60%;
+margin-left: 20%;
+color: white;
+}
+#abt_scottie{
+width: 60%;
+margin-left: 20%;
+color: white;
+}
+#abt_ross{
+width: 60%;
+margin-left: 20%;
+color: white;
+}
+#abt_zane{
+width: 60%;
+margin-left: 20%;
+color: white;
+}
+#abt_alex{
+width: 60%;
+margin-left: 20%;
+color: white;
+}
+#abt_zlaw{
+width: 60%;
+margin-left: 20%;
+color: white;
+}
+#abt_kbennett{
+width: 60%;
+margin-left: 20%;
+color: white;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+  /* Add additional styling for each flex item */
+}
+p{
+  color: white;
+  background-color: #5337298c;
+  border-radius: 10px;
+}
+#bl{
+  color: #ddb021;
+}
+a{
+  text-decoration: none;
+}
+#caseovi{
+  width: 560px;
+}
+#fst{
+  width: 650px;
+  background-color: #533729a4;
+  border-radius: 30px;
+}
+#txt{
+  color: white;
+}
+#btn{
+  height: 40px;
+  width: 60px;
+  border-radius: 10px;
+}
+#vid{
+  border: 4px #001a2e;
+  border-style: solid;
+  border-radius: 10px;
+}
+#footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.297);
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+}
+#abtproblem{
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+}
+#fst{
+  width: 650px;
+  background-color: #533729a4;
+  border-radius: 30px;
+  float: left;
+  margin-left: 270px;
+  margin-top: 90px;
+}
+#mapa{
+  float: right;
+  margin-right: 140px;
+  border-width: 5px;
+  border-color: #001a2e;
+  border-radius: 20px;
+  margin-top: 44px;
+}
+input{
+  border-radius: 5px;
+  border:#001a2e, 2px;
+}
+#contactus{
+  clear: both;
+  margin-top: 700px;
+  margin-left: 450px;
+  margin-right: 450px;
+  background-color: #533729a4;
+}
+.Header{
+  color: #ddb021;
+  margin-left: 80px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th,
+tbody td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+thead th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+.unos {
+  display: flex;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.formcont {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.table-container {
+  flex: 2;
+  padding: 0 20px;
+}
+#dst{
+  width: 650px;
+  background-color: #533729a4;
+  border-radius: 30px;
+  margin-left: 630px;
+  margin-top: 90px;
+  margin-bottom: 200px;
+}
+.tabluno{
+  color: azure;
+  text-align: center;
+}
